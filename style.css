@@ -1,0 +1,19 @@
+canvas{
+    border-style: solid;
+    animation-name: change-color;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.btn-warning:hover{
+    background-color: lightgreen;
+}
+
+h3{
+    font-size: 25px;
+}
+
+@keyframes change-color{
+    from{box-shadow: 1px 1px 38px orange;}
+    to{box-shadow: 1px 1px 38px lightgreen;}
+}
